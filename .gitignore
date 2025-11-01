@@ -205,3 +205,19 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+#Data files (Never push large datasets to GitHub!)
+*.csv
+*.json
+data/
+datasets/
+
+# Trained models (These are large binary files)
+*.pkl
+*.h5
+*.pth
+*.joblib
+models/
+
+# Secret files (API keys, passwords, etc.)
+.env
